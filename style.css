@@ -1,0 +1,84 @@
+/* google fronts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Body styles */
+body {
+    background: linear-gradient(45deg,black,black,black);
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-weight: 500;
+
+
+  }
+  
+  .container{
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bmi_wrapper{
+    box-shadow: 0px 0px 10px white;
+    margin-top: 40px;
+    border-radius: 0px 50px 0px 50px;
+    padding:40px;
+    background:linear-gradient(to left,red ,rgb(108, 194, 108),rgb(219, 71, 71));
+  }
+  /* Form element styles */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type=number] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 0px 0px transparent;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Result element styles */
+  #result {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
